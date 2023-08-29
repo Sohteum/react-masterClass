@@ -1,12 +1,12 @@
-import Circle from "./Circle";
+import Router from "./Router";
 
 function App() {
   return (
-    <div>
-      <Circle bgColor="teal" />
-      <Circle bgColor="tomato" />
-    </div>
+   <Router />
   );
 }
 
 export default App;
+
+
+//npm i --save-dev @types/react-query 이런식으로 설치해볼것.
